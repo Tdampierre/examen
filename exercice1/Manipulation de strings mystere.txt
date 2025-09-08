@@ -1,0 +1,5 @@
+Il fallait écrire un code qui:
+Chacun des codes devaient renvoyer un booléen.
+surprise annexe renvoie true si la valeur mise en entrée est une rune compris entre a et z, et A et Z (deux alphabetes differents en informatique)
+surprise: Si la longeur de la chaine de charactère entrée en paramètre est inférieure à un renvoie false, sinon il envoie le premier charactère dans surpise annexe 
+et fais une boucle afin de verifier que chaque rune est bien comprise entre a et Z
