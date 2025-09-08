@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(pgcd(10, 20))
-	fmt.Println(pgcd(12, 24))
+	fmt.Println(pgdc(10, 20))
+	fmt.Println(pgdc(12, 24))
 }
 
-func pgcd(a, b int) int {
+func pgdc(a, b int) int {
 	if b == 0 {
 		return a
 	}
-	return pgcd(b, a%b)
+	return pgdc(b, a%b)
 }
